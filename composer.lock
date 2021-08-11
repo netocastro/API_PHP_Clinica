@@ -1,0 +1,122 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c75892419e440df3e42d02957b9fdfb9",
+    "packages": [
+        {
+            "name": "stonks/datalayer",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giovannialo/datalayer.git",
+                "reference": "10a0dbe107a35fccfc60c66d0e287e92c6d13060"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giovannialo/datalayer/zipball/10a0dbe107a35fccfc60c66d0e287e92c6d13060",
+                "reference": "10a0dbe107a35fccfc60c66d0e287e92c6d13060",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stonks\\DataLayer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giovanni A. L. Oliveira",
+                    "email": "giovanni.al.oliveira@gmail.com",
+                    "homepage": "https://github.com/giovannialo",
+                    "role": "Developer"
+                }
+            ],
+            "description": "O DataLayer é um componente para abstração de persistência para banco de dados, que usa PDO com prepared statements.",
+            "homepage": "https://github.com/giovannialo/datalayer",
+            "keywords": [
+                "Stonks",
+                "crud",
+                "database",
+                "delete",
+                "destroy",
+                "pdo",
+                "save"
+            ],
+            "support": {
+                "issues": "https://github.com/giovannialo/datalayer/issues",
+                "source": "https://github.com/giovannialo/datalayer/tree/1.0.2"
+            },
+            "time": "2021-01-29T03:27:19+00:00"
+        },
+        {
+            "name": "stonks/router",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giovannialo/router.git",
+                "reference": "089d09fe445bfa483f14a2269d1360ac65ddb4d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giovannialo/router/zipball/089d09fe445bfa483f14a2269d1360ac65ddb4d8",
+                "reference": "089d09fe445bfa483f14a2269d1360ac65ddb4d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stonks\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giovanni A. L. Oliveira",
+                    "email": "giovanni.al.oliveira@gmail.com",
+                    "homepage": "https://github.com/giovannialo",
+                    "role": "Developer"
+                }
+            ],
+            "description": "O Router é um componente de rotas PHP com abstração para MVC. Preparado com verbos RESTful (GET, POST, PUT, PATCH e DELETE), ele trabalha em sua própria camada de forma isolada.",
+            "homepage": "https://github.com/giovannialo/router",
+            "keywords": [
+                "Stonks",
+                "route",
+                "router",
+                "routers",
+                "routes"
+            ],
+            "support": {
+                "issues": "https://github.com/giovannialo/router/issues",
+                "source": "https://github.com/giovannialo/router/tree/1.0.1"
+            },
+            "time": "2020-10-08T19:51:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
