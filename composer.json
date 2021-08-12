@@ -1,6 +1,6 @@
 {
     "name": "neto-developer/api-php",
-    "description": "API para aplica\u0000\u0000o de uma clinica sem framework",
+    "description": "API para aplicacao de uma clinica sem framework",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -11,7 +11,6 @@
             "src/Core/Config.php",
             "src/Core/Functions.php"
         ]
-        
     },
     "authors": [
         {
@@ -21,7 +20,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "stonks/datalayer": "1.0.*",
-        "stonks/router": "1.0.*"
+        "stonks/router": "^1.0",
+        "stonks/datalayer": "1.0.*"
     }
 }

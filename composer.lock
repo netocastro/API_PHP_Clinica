@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c75892419e440df3e42d02957b9fdfb9",
+    "content-hash": "1b24075fe87793ad0440fa33d54ae4df",
     "packages": [
         {
             "name": "stonks/datalayer",
