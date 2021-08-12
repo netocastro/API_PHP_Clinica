@@ -12,7 +12,6 @@ class Post
 
             $paciente->nome = $data['nome'];
             $paciente->cpf = $data['cpf'];
-
             $paciente->save();
 
             if($paciente->fail()){
