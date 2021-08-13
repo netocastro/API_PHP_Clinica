@@ -8,6 +8,6 @@ class Medicos extends DataLayer
 {
       public function __construct()
       {
-            parent::__construct('medicos', ['nome', 'cpf'], 'id', true);
+            parent::__construct('medicos', ['nome', 'crm'], 'id', true);
       }
 }
