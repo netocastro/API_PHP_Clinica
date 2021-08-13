@@ -17,9 +17,8 @@ $router->group(null);
 $router->get('/',function ()
 {
 
-
-      print_r((new Medicos())->data());
-      $data = [];
+      
+    /*  $data = [];
       $data['nome'] = "hfjhjfdf";
       $data['crm'] = "88";
       $data['id'] = "10";
@@ -30,7 +29,7 @@ $router->get('/',function ()
             echo "value: " . $value. "<br><br>";
             echo 'datakey:' . $data[$key]. "<br>";
 
-      }
+      }*/
 
      /* var_dump((new Medicos())->findById(5)->data());
      $objectModel = (new Medicos())->findById(5);
@@ -59,8 +58,7 @@ $router->get('/',function ()
 /**
  * GET
  */
-//$router->get('/pacientes','Get:getPacientes','get.pacientes');
-//$router->get('/medicos','Get:getPacientes','get.pacientes');
+
 $router->get('/{$model}','Get:getTables','get.tables');
 
 /**
@@ -73,13 +71,13 @@ $router->post('/{$model}','Post:inserir','post.insert');
 /**
  * PUT
  */
-//$router->put('/pacientes','Put:putPaciente','put.paciente');
+
 $router->put('/{$model}','Put:atualizar','put.atualizar');
 
 /**
  * DELETE
  */
-$router->delete('/pacientes','Delete:deletePaciente','delete.paciente');
+$router->delete('/{$model}','Delete:delete','delete.delete');
 
 $router->dispatch();
 
